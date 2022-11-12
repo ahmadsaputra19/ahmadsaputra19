@@ -1,0 +1,45 @@
+*,
+html,body
+ {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+body {
+  background: rgb(51, 165, 241);
+}
+section {
+  padding-top: 5rem;
+  padding-left: 1.5rem;
+}
+
+.logo {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+}
+
+.bebas img {
+  width: 100vw;
+}
+
+.cfooter {
+  align-items: center;
+}
+
+div a img {
+  max-width: 30px;
+  max-height: 30px;
+  margin-left: 4px;
+}
+
+div h6 {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+tr td img {
+  max-width: 30px;
+  max-height: 30px;
+}

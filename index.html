@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Login</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="p-3 bg-danger text-white shadow-lg">
+      <h1 class="text-center">COMPANY PROFILE</h1>
+      <p class="text-center">PT.RADEN IT CORPORATION</p>
+    </div>
+
+    <div class="container mt-3 mb-5">
+      <h3>Form Validation Raden IT</h3>
+      <p>Try to submit the form.</p>
+
+      <form action="/fitur/home.html" class="was-validated">
+        <div class="mb-3 mt-3">
+          <label for="uname" class="form-label">Username:</label>
+          <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required />
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <div class="mb-3">
+          <label for="pwd" class="form-label">Password:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required />
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required />
+          <label class="form-check-label" for="myCheck">I agree to continue.</label>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Check this checkbox to continue.</div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <section class="mb-3 pt-0 mt-0">
+      <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"> About </a>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">PT. RADEN IT COEPORATION</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>Masalah utama seorang programmer adalah kamu tidak pernah tau apa yang sedang orang lain kerjakan, Sampai ketika masalah itu muncul dan sudah terlambat untuk mengatasinya</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer sticky-bottom position-fixed mb-0">
+      <div class="cfooter text-center d-column justify-content-center bg-dark p-3">
+        <h6 class="text-light">Created By:Ahmad saputra</h6>
+        <a href="https://web.facebook.com/almuqorrobin.pacar/"><img src="/img/fb.png" alt="..." /></a>
+        <a href="https://www.youtube.com/channel/UC18h7SFfM23X17kNYeek5zg/featured"><img src="/img/yt.png" alt="" /></a>
+        <a href="https://www.instagram.com/ahmad_saputra_19/"><img src="/img/ig.png" alt="" /></a>
+        <a href="https://wa.me/6289603170126?text=Hallo,%20salam%20kenal"><img src="/img/wa.png" alt="" /></a>
+      </div>
+    </footer>
+
+    <!-- akhir footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  </body>
+</html>
